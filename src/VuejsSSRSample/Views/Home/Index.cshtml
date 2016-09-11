@@ -1,0 +1,13 @@
+﻿@model VuejsSSRSample.Models.ClientState
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="my-app" asp-prerender-module="VueApp/renderOnServer" asp-prerender-data="Model"></div>
+    <script src="~/dist/bundle.client.js" asp-append-version="true"></script>
+</body>
+</html>
+
