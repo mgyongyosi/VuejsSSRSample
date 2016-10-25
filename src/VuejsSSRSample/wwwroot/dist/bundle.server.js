@@ -62,7 +62,7 @@ module.exports =
 
 	;
 
-	// push context related data (for example initial state of the application) with the context attribute
+	// push context related data (in our case the initial state of the application) with the context attribute
 
 /***/ },
 /* 1 */
@@ -8595,7 +8595,7 @@ module.exports =
 					"spec": ">=0.14.0 <0.15.0",
 					"type": "range"
 				},
-				"c:\\Users\\8560w\\documents\\visual studio 2015\\Projects\\VuejsSSR\\src\\VuejsSSR"
+				"c:\\Users\\8560w\\Documents\\GitHub\\VuejsSSRSample\\src\\VuejsSSRSample"
 			]
 		],
 		"_from": "axios@>=0.14.0 <0.15.0",
@@ -8629,7 +8629,7 @@ module.exports =
 		"_shasum": "40f24f2f4e913b9faa43d3a7b2e40ab8729afa90",
 		"_shrinkwrap": null,
 		"_spec": "axios@^0.14.0",
-		"_where": "c:\\Users\\8560w\\documents\\visual studio 2015\\Projects\\VuejsSSR\\src\\VuejsSSR",
+		"_where": "c:\\Users\\8560w\\Documents\\GitHub\\VuejsSSRSample\\src\\VuejsSSRSample",
 		"author": {
 			"name": "Matt Zabriskie"
 		},

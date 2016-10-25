@@ -4,9 +4,9 @@
   "private": true,
 
   "dependencies": {
-    "vue": "^2.0.0-rc.4",
-    "vuex": "^2.0.0-rc.4",
-    "vue-server-renderer": "^2.0.0-rc.4",
+    "vue": "^2.0.3",
+    "vuex": "^2.0.0",
+    "vue-server-renderer": "^2.0.3",
     "axios": "^0.14.0",
     "aspnet-prerendering": "^1.0.4",
     "lodash": "^4.15.0"
@@ -15,7 +15,7 @@
   "devDependencies": {
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.13.2",
-    "vue-loader": "^9.3.2",
+    "vue-loader": "^9.7.0",
     "css-loader": "^0.23.1",
     "json-loader": "^0.5.4",
     "babel-preset-stage-2": "^6.13.0"
