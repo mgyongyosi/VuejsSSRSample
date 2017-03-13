@@ -6,5 +6,5 @@ const app = new Vue({
     store, 
     ...App
 });
-//COmment
+//Comment
 export { app, store };
