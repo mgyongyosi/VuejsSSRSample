@@ -10,7 +10,6 @@ namespace VuejsSSRSample.Controllers
     [Route("/Home")]
     public class HomeController : Controller
     {
-        // GET: /<controller>/
         public IActionResult Index()
         {
             var initialMessages = FakeMessageStore.FakeMessages.OrderByDescending(m => m.Date).Take(2);
