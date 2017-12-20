@@ -8,16 +8,16 @@ module.exports = {
     },
     module: {
         loaders: [
-          {
-              test: /\.vue$/,
-              loader: 'vue',
-          },
-          {
-              test: /\.js$/,
-              loader: 'babel',
-              include: __dirname,
-              exclude: /node_modules/
-          },
+            {
+                test: /\.vue$/,
+                loader: 'vue-loader',
+            },
+            {
+                test: /\.js$/,
+                loader: 'babel-loader',
+                include: __dirname,
+                exclude: /node_modules/
+            },
         ]
     },
 };

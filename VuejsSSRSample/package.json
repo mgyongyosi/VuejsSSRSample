@@ -2,16 +2,15 @@
   "version": "1.0.0",
   "name": "vuejsssrsample",
   "private": true,
-
   "dependencies": {
-    "vue": "^2.0.3",
-    "vuex": "^2.0.0",
-    "vue-server-renderer": "^2.0.3",
-    "axios": "^0.14.0",
     "aspnet-prerendering": "^1.0.4",
-    "lodash": "^4.15.0"
+    "axios": "^0.14.0",
+    "babel-core": "^6.26.0",
+    "lodash": "^4.15.0",
+    "vue": "^2.0.3",
+    "vue-server-renderer": "^2.0.3",
+    "vuex": "^2.0.0"
   },
-
   "devDependencies": {
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.13.2",
