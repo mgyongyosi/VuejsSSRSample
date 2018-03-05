@@ -12,11 +12,15 @@
     "vuex": "^2.0.0"
   },
   "devDependencies": {
+    "webpack": "2.6.1",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.13.2",
     "vue-loader": "^9.7.0",
     "css-loader": "^0.23.1",
     "json-loader": "^0.5.4",
     "babel-preset-stage-2": "^6.13.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.server.config.js && webpack --config webpack.client.config.js"
   }
 }

@@ -29,7 +29,7 @@ namespace VuejsSSRSample
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc();
+            app.UseMvcWithDefaultRoute();
 
             app.UseStaticFiles();
         }
